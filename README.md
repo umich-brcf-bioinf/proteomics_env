@@ -4,3 +4,27 @@ This environment is provided as a Docker image on [Dockerhub](https://hub.docker
 
 Tags on both Dockerhub and Github are set to match the BFXcore Job ID.  
 
+## To modify
+
+* update the Dockerfile as needed
+
+* build and retag image:
+
+```
+docker build -t umichbfxcore/proteomics_env:<job id> .
+```
+
+* push to docker hub:
+
+```
+docker push umichbfxcore/proteomics_env:<job id>
+```
+
+* git commit with tag and push to github
+
+```
+git add .
+git commit -m "some message"
+git tag <job id>
+git commmit
+```

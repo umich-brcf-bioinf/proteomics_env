@@ -6,7 +6,8 @@ RUN Rscript -e "\
         'limma', \
         'qvalue', \
         'pRoloc', \
-        'pRolocdata' \
+        'pRolocdata', \
+        'edgeR' \
         )); \
     install.packages(c( \  
         'bookdown', \    
@@ -20,6 +21,7 @@ RUN Rscript -e "\
         'plotly', \
         'reticulate', \
         'Rtsne', \
+        'systemfonts', \
         'tidyverse', \
         'xfun' \
         ));"
