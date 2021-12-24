@@ -28,3 +28,9 @@ git commit -m "some message"
 git tag <job id>
 git commmit
 ```
+
+* push the tag too.  It doesn't happen automatically
+
+```
+git push origin <job id>
+```
