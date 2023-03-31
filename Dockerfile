@@ -5,6 +5,7 @@ RUN Rscript -e "\
         'BiocGenerics', \
         'edgeR', \
         'limma', \
+        'MSstatsTMT', \
         'qvalue', \
         'piano', \
         'pRoloc', \
@@ -14,12 +15,14 @@ RUN Rscript -e "\
         'bookdown', \    
         'ComplexUpset', \
         'cowplot', \
+        'GGally', \
         'ggrepel', \
         'hdf5r', \
         'Hmisc', \
         'locfit', \
         'kableExtra', \
         'patchwork', \
+        'pheatmap', \
         'plotly', \
         'reticulate', \
         'Rtsne', \

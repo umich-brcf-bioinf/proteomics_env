@@ -26,7 +26,7 @@ docker push umichbfxcore/proteomics_env:<job id>
 git add .
 git commit -m "some message"
 git tag <job id>
-git commmit
+git push
 ```
 
 * push the tag too.  It doesn't happen automatically
