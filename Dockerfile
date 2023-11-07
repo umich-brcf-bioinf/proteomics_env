@@ -7,7 +7,8 @@ RUN Rscript -e "\
         'limma', \
         'MSstatsTMT', \
         'qvalue', \
-        'piano' \
+        'piano', \
+        'WGCNA' \
         )); \
     install.packages(c( \  
         'bookdown', \    
@@ -26,7 +27,6 @@ RUN Rscript -e "\
         'Rtsne', \
         'systemfonts', \
         'tidyverse', \
-        'WGCNA', \
         'xfun' \
         ));"
 
