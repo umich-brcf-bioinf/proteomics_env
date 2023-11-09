@@ -8,12 +8,14 @@ RUN Rscript -e "\
         'MSstatsTMT', \
         'qvalue', \
         'piano', \
+        'sva', \
         'WGCNA' \
         )); \
     install.packages(c( \  
         'bookdown', \    
         'ComplexUpset', \
         'cowplot', \
+        'flashClust', \
         'GGally', \
         'ggrepel', \
         'hdf5r', \
