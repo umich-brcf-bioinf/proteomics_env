@@ -11,7 +11,8 @@ RUN Rscript -e "\
         'sva', \
         'WGCNA' \
         )); \
-    install.packages(c( \  
+    install.packages(c( \
+        'arrow', \
         'bookdown', \    
         'ComplexUpset', \
         'cowplot', \
@@ -22,6 +23,7 @@ RUN Rscript -e "\
         'Hmisc', \
         'locfit', \
         'kableExtra', \
+        'OlinkAnalyze', \
         'patchwork', \
         'pheatmap', \
         'plotly', \
