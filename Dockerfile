@@ -9,7 +9,8 @@ RUN Rscript -e "\
         'qvalue', \
         'piano', \
         'sva', \
-        'WGCNA' \
+        'WGCNA', \
+        'DESeq2' \
         )); \
     install.packages(c( \
         'arrow', \
@@ -31,6 +32,7 @@ RUN Rscript -e "\
         'Rtsne', \
         'systemfonts', \
         'tidyverse', \
+        'UpSetR', \
         'xfun' \
         ));"
 
