@@ -1,16 +1,19 @@
-FROM bioconductor/bioconductor_docker:RELEASE_3_13
+FROM bioconductor/bioconductor_docker:RELEASE_3_21
 
 RUN Rscript -e "\
     BiocManager::install(c( \
         'BiocGenerics', \
+        'DESeq2', \
+        'DEqMS', \
         'edgeR', \
         'limma', \
         'MSstatsTMT', \
-        'qvalue', \
+        'PCAtools', \
         'piano', \
+        'qvalue', \
+        'ROTS', \
         'sva', \
-        'WGCNA', \
-        'DESeq2' \
+        'WGCNA' \
         )); \
     install.packages(c( \
         'arrow', \
@@ -30,6 +33,7 @@ RUN Rscript -e "\
         'plotly', \
         'reticulate', \
         'Rtsne', \
+        'statmod', \
         'systemfonts', \
         'tidyverse', \
         'UpSetR', \
