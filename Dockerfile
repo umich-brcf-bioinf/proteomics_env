@@ -45,7 +45,6 @@ RUN mkdir /opt/virtualenvs/ && \
     library(reticulate); \
     virtualenv_create('r-reticulate'); \
     virtualenv_install('r-reticulate', 'pandas'); \
-    virtualenv_install('r-reticulate', 'leidenalg'); \
-    install.packages('harmony');"
+    virtualenv_install('r-reticulate', 'plotly');"
 
 ENV WORKON_HOME=/opt/virtualenvs
