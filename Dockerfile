@@ -40,4 +40,12 @@ RUN Rscript -e "\
         'xfun' \
         ));"
 
+RUN mkdir /opt/virtualenvs/ && \
+    export WORKON_HOME=/opt/virtualenvs ; Rscript -e "\
+    library(reticulate); \
+    virtualenv_create('r-reticulate'); \
+    virtualenv_install('r-reticulate', 'pandas'); \
+    virtualenv_install('r-reticulate', 'leidenalg'); \
+    install.packages('harmony');"
 
+ENV WORKON_HOME=/opt/virtualenvs
