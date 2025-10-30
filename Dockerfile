@@ -22,6 +22,7 @@ RUN Rscript -e "\
         'cowplot', \
         'flashClust', \
         'GGally', \
+        'ggiraph', \
         'ggrepel', \
         'hdf5r', \
         'Hmisc', \

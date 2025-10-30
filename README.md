@@ -11,26 +11,26 @@ Tags on both Dockerhub and Github are set to match the BFXcore Job ID.
 * build and retag image:
 
 ```
-docker build -t umichbfxcore/proteomics_env:fort_cu1_proteomics_II --platform=linux/amd64 .
+docker build -t umichbfxcore/proteomics_env:oculomics_cu11_v2 --platform=linux/amd64 .
 ```
 
 * push to docker hub:
 
 ```
-docker push umichbfxcore/proteomics_env:fort_cu1_proteomics_II 
+docker push umichbfxcore/proteomics_env:oculomics_cu11_v2 
 ```
 
 * git commit with tag and push to github
 
 ```
 git add .
-git commit -m "fort_cu1_proteomics_II"
-git tag fort_cu1_proteomics_II
+git commit -m "oculomics_cu11_v2"
+git tag oculomics_cu11_v2
 git push
 ```
 
 * push the tag too.  It doesn't happen automatically
 
 ```
-git push origin fort_cu1_proteomics_II
+git push origin oculomics_cu11_v2
 ```
